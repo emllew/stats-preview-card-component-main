@@ -12,10 +12,20 @@ body {
   font-family: Inter;
   background-color: var(--background);
 }
+.all {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
+  height: 446px;
   display: grid;
+  margin: auto;
   max-width: 1000px;
-  margin: 0 auto;
   grid-template-areas:
     'A A A A   A A C C   C C C C'
     'B B B B   B B C C   C C C C'
@@ -61,5 +71,5 @@ img {
   grid-area: C;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1440px) {
 }
