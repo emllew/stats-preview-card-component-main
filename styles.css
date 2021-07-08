@@ -82,11 +82,11 @@ strong {
 
 @media (min-width: 1440px) {
   main {
-    height: auto;
+    height: fit-content;
     border-radius: 5px;
     display: grid;
     margin: 50px;
-    width: 84vw;
+    width: 64vw;
     grid-template-areas:
       'A A A A   A A C C   C C C C'
       'B B B B   B B C C   C C C C'
@@ -100,15 +100,16 @@ strong {
     color: var(--white);
     grid-area: A;
     text-align: left;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     margin: 0px;
   }
   .emphasis {
     color: var(--accent);
+    font-family: var(--lexend-deca);
   }
   h3 {
     padding-left: 60px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-right: 60px;
     text-align: left;
     margin: 0px;
@@ -125,7 +126,7 @@ strong {
   .l3 {
     padding-bottom: 50px;
     color: var(--stats);
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .l1 {
     padding-left: 30px;
@@ -140,7 +141,7 @@ strong {
   }
   img {
     border-radius: 6px;
-    width: 42vw;
+    width: 34vw;
     grid-area: C;
   }
 }
