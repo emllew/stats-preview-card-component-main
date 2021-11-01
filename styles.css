@@ -118,7 +118,7 @@ strong {
     grid-area: B;
   }
   strong {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: var(--white);
   }
   .l1,
@@ -141,7 +141,7 @@ strong {
   }
   img {
     border-radius: 6px;
-    width: 34vw;
+    width: 32vw;
     grid-area: C;
   }
 }
